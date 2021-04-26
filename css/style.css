@@ -1,0 +1,2376 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto';
+	font-size: 20px;
+	background-color: #f2f2f2;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+	color: #fff !important;
+}
+.img-fluid {
+	width: 100%;
+	height: 50px;
+}
+.img-fluid-km {
+	width: 100%;
+	height: 80px;
+}
+.loca .form-select {
+    background-color: #0D5331;
+    width:100%;
+    font-size:16px;
+    border-radius:2px;
+    height: 50px
+}
+
+
+.form-control-feedback {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background-color:  #0D5331;
+	border-top-left-radius: 5px; 
+	border-bottom-left-radius: 5px;
+}
+
+.has-search .form-control {
+	padding-left: 2.375rem;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 1.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+	font-style: italic;
+	color: #0D5331 !important;
+}
+
+.hotline {
+	text-align: center;
+}
+.hotline span {
+	color: #0D5331;
+	font-size: 0.8rem;
+	font-weight: normal;
+}
+.hotline p {
+	line-height: 23px;
+	color: #F2001B;
+	font-size: 0.85rem;
+	font-weight: bold;
+}
+.htcuahang p {
+	line-height: 23px;
+	text-align: center;
+	color: #0D5331;
+	font-size: 0.85rem;
+	font-weight: 900;
+}
+
+
+.giohang button {
+	height: 50px;
+	width: 100%;
+	font-size: 0.75em;
+	background-color: #0D5331;
+	color: #fff;
+}
+.fa-shopping-cart {
+	font-size: 1.6rem;
+}
+
+.giohang button:hover {
+	font-size: 14px;
+	background-color: #0D5331;
+    color: #fff;
+
+}
+
+/*menu*/
+.navbar {
+	background-color: #0D5331 !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto !important;
+  font-size: 12px;
+  color: #fff;
+}
+.navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-size: 12px;
+}
+
+.title-banner {
+	text-decoration: underline !important;
+}
+
+.banner-km {
+	height: 101px;
+}
+
+/* sale */
+.none-animate {
+	display: revert;
+}
+
+/* card */
+.card-body {
+    color: black;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding-top: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.card-title {
+    font-size: 14px;
+    line-height: 1.3em;
+    margin-bottom: 0.25rem;
+}
+
+.card-text {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0D5331 ;
+    margin-bottom: 0.25rem;
+
+}
+
+.card-promotion {
+    color: #a8011f;
+    font-weight: 700;
+    margin-bottom: -0.5rem;
+    float: left;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.card-price {
+    font-size: 14px;
+    color: #4e4e4e7a;
+    text-decoration: line-through;
+    line-height: 5px;
+}
+
+.card-review {
+    font-size: 13px;
+    font-weight: 900;
+    color: #ff9017;
+}
+
+.card p {
+    margin-bottom: 0.25rem;
+}
+
+.main-product-dev {
+    float: left;
+}
+
+.title-product-dev {
+    background: #0D5331 !important; 
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    display: block;
+    color: #f3f3f3 !important;
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+
+}
+.product-dev {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.menu-header-dev{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.home-category-tags {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto; 
+    overflow-x: auto !important;
+}
+
+.home-category-tags::-webkit-scrollbar-track {
+	border-radius: 8px;
+	background-color: #F3F3F3;
+}
+.home-category-tags::-webkit-scrollbar {
+    padding-top: 3px;
+    background-color: #F3F3F3;
+    height: 10px;
+    padding-top: 3px;
+}
+
+.home-category-tags::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 0.5px solid #fff;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.home-category-tag {
+    text-decoration: none !important;
+    color: #ffff !important;
+    font-weight: 200 !important;
+    font-size: 14px;
+    padding: 5px 10px !important;
+    border-radius: 8px;
+    margin-right: 10px;
+    flex: 0 0 auto;
+    background: #0D5331;
+}
+.store-brand-mobi{
+	display: none;
+}
+.sidenav {
+	display: none;
+}
+.carousel-indicators {
+	z-index: 1 !important;
+}
+label.ex_giamgia {
+    color: #fff;
+   
+    
+    font-size: 10px;
+   
+    max-width: calc( 100% - 30px );
+    background-image: linear-gradient(
+-90deg
+,#ec1f1f 0%,#ff9c00 100%);
+    border-radius: 10px;
+    padding: 1px 7px;
+    padding-left: 0;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+label.ex_giamgia::before {
+    content: ' ';
+    display: inline-block;
+    background: url(../image/flash-lightning-bolt.svg);
+    background-size: 50% 50%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f13500;
+    border-radius: 50%;
+    vertical-align: middle;
+    position: relative;
+    top: 0px;
+    margin-right: 5px;
+}
+/*User*/
+.title-users h1 {
+  color:#0D5331;
+  padding-top: 10px;
+    padding-left: 142px;
+}
+
+.image-user img {
+  width: 100%;
+  padding: 10px;
+}
+.owl-nav {
+	display: none;
+}
+.owl-dots {
+	display: none;
+}
+/* cate-list*/
+.carousel-item img{
+	width: 100%;
+}
+
+.pagi {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagi a {
+	color: #0D5331;
+}
+.pagi .page-link {
+	border: 0px solid #dee2e6;
+	background-color: #fff0;
+	padding: .2rem .5rem;
+}
+.pagi .page-so{
+	border-radius: 20px;
+    margin-right: 0px;
+    margin-left: 3px;
+    border: 1px solid #0D5331;
+    
+}
+/*footer*/
+footer {
+	background-color: #0D5331;
+}
+footer h4 {
+	color: #fff;
+	font-size: 1rem;
+}
+footer ul li {
+	color: #fff;
+	font-size: 0.8rem;
+}
+.thongtinthanhtoan img {
+	padding-top: 10px;
+	width: 50%;
+}
+.ketnoiddx img {
+	width: 50%;
+}
+/*about*/
+.breadcrumb {
+	background-color: #fff0;
+	padding: .3rem 1rem !important;
+    margin-bottom: 0rem !important;
+}
+.breadcrumb .breadcrumb-item  {
+	color: #000;
+}
+.breadcrumb .breadcrumb-item  a{
+	color: #000;
+}
+.about .tab {
+  	float: left;
+  	background-color: #f1f1f1;
+    width: 100%;
+}
+.about .tab button {
+	display: block;
+	background-color: inherit;
+	color: black;
+	padding: 10px 10px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 16px;
+	box-shadow: 0px 6px 4px #ccc;
+	    -moz-box-shadow: 0px 6px 4px #ccc;
+	    -webkit-box-shadow: 0px 6px 4px #ccc;
+	    -khtml-box-shadow: 0px 6px 4px #ccc;
+   	text-align: center;
+   	background: #fff;
+}
+.about .tab button:hover {
+  background-color: #ddd;
+
+}
+.about .tab button.active {
+  	background-color: #0D5331;
+   	color: #fff;
+}
+.about .tabcontent {
+  	float: left;
+  	padding: 0px 12px;
+  	background: #fff;
+  	border-left: none;
+  	box-shadow: 0px 6px 4px #ccc;
+	    -moz-box-shadow: 0px 6px 4px #ccc;
+	    -webkit-box-shadow: 0px 6px 4px #ccc;
+	    -khtml-box-shadow: 0px 6px 4px #ccc;
+}
+.about .tabcontent h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.about .tabcontent p {
+	font-size: 16px;
+}
+/*detail*/
+.detail-img img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.mySlides {
+  display: none;
+}
+.detail-img .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.detail-img .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.detail-img .column {
+  float: left;
+  width: 25%;
+}
+
+.detail-img .demo {
+  opacity: 0.6;
+}
+
+.detail-img .active,
+.detail-img .demo:hover {
+  opacity: 1;
+}
+.note-detail h4 {
+	font-size: 20px;
+}
+.note-detail p {
+	font-size: 14px;
+}
+.img-fluid-hot {
+	width: 100%;
+    height: 100px;
+}
+.price-detail {
+	font-size: 30px; 
+	color: red; 
+	font-weight: 600; 
+	float: left; 
+	margin-right: 40px;
+}
+.price-detail-km {
+	font-size: 30px; 
+	color: gray; 
+	text-decoration: line-through;
+}
+.card-detail{
+	border-radius: 1rem;
+	box-shadow: 0px 6px 4px #ccc;
+		-moz-box-shadow: 0px 6px 4px #ccc;
+		-webkit-box-shadow: 0px 6px 4px #ccc;
+		-khtml-box-shadow: 0px 6px 4px #ccc;
+}
+.card-detail .card-body {
+    padding-bottom: 0px;
+}
+.card-detail .card-text {
+    font-size: 16px;
+}
+.button-mtg button .title-btn{
+	font-size: 16px;
+}
+.button-mtg button .title-btn-sub{
+	font-size: 14px;
+}
+.button-mtg .btn-success {
+	color: #fff;
+    background-color: #0D5331;
+    border-color: #0D5331;
+}
+.title-product-detail {
+    background: #0D5331 !important; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    display: block;
+    color: #f3f3f3 !important;
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 16px;
+}
+.button-xct .btn-success {
+    color: #fff;
+    background-color: #0D5331;
+    border-color: #0D5331;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nd-detail p {
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.nd-chitiet h4{
+	font-size: 20px;
+	border-bottom: 3px solid black;
+}
+.nd-chitiet p {
+	font-size: 16px;
+}
+#more {
+	display: none;
+}
+.btn-xt .btn-success {
+	color: #fff;
+    background-color: #0D5331;
+    border-color: #0D5331;
+	margin-right: auto;
+	margin-left: auto;
+}
+.ex_thongke {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.ex_diemsao {
+    text-align: center;
+    font-size: 12px;
+    color: #4a4a4a;
+    padding: 10px;
+    border-right: 1px solid #d8d8d8;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ex_diemsao .checked {
+  color: orange;
+}
+.ex_diemsao p {
+	font-size: 40px;
+	line-height: 0px;
+}
+.ex_diemsao span {
+	font-size: 16px;
+}
+.ex_chiba {
+   
+    font-size: 12px;
+    color: #4a4a4a;
+    padding: 10px;
+    border-right: 1px solid #d8d8d8;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ex_saovang .ex_5sao {
+    width: 10%;
+    float: left;
+}
+
+.ex_saovang>li {
+    display: table;
+    width: 100%;
+    margin-bottom: 2px;
+    font-size: 12px;
+    color: #9a9a9a;
+    line-height: 1.5;
+}
+.ex_saovang .progress {
+    width: 60%;
+    margin-top: 6px;
+}
+.ex_thongke .progress {
+    height: 6px;
+}
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+
+}
+.ex_saovang .ex_sdem {
+    width: 20%;
+    float: right;
+   	margin-top: -14px;
+}
+.ex_guidanhgia {
+    border-right: 0px solid #d8d8d8;
+}
+.ex_guidanhgia a {
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+    padding: 9px 35px;
+    color: #fff;
+    background: #0D5331;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 22px;
+}
+.comments p {
+	margin-top: 20px;
+}
+div.stars {
+  width: 270px;
+  display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+  content: '★ ';
+  color: #FD4;
+  transition: all .25s;
+}'
+
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+  content: '★ ';
+  font-family: FontAwesome;
+}
+.form-submit input {
+    text-decoration: none;
+    background: #0D5331;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: normal;
+}
+.related-ar {
+	border: 0px solid rgba(0,0,0,.125);
+	background-color: #fff0;
+}
+.new-image img{
+	width: 100%;
+}
+/*news*/
+.new-tab .nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+    width: 100%;
+}
+.new-tab .nav-tabs .nav-link {
+    margin-bottom: 0px;
+    border: 1px solid #0D5331;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    color: #fff;
+    background-color: #0D5331;
+    font-size: .85rem;
+    text-align: center;
+}
+.new-tab .nav-tabs .nav-link.active {
+    color: #0D5331;
+    background-color: #fff;
+    border-color: #0D5331 #0D5331 #0D5331;
+}
+/*detail news*/
+.header-title h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.header-title p {
+	font-size: 12px;
+	line-height: 2px;
+}
+.header-title span {
+	padding-left: 30px;
+}
+.description-news p {
+	font-size: 16px;
+	line-height: 20px;
+}
+.description-news img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.description-news h4 {
+	font-size: 20px;
+	color: #0D5331;
+}
+.author p {
+	line-height: 3px;
+	color: #9e9c9c;
+}
+.new-hot-image img {
+	width: 100%;
+	border-radius: 10px;
+}
+.binhluanbaiviet h4 {
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+.baivietlienquan h4{
+	font-size: 20px;
+    border-bottom: 3px solid black;
+}
+.baivietlienquan h5 {
+	font-size: 16px;
+}
+/* trả góp*/
+.banner-tragop img {
+	width: 100%;
+}
+.hd-tragop img{
+	width: 80%;
+}
+.hd-tragop h3 {
+	font-size: 1.5rem;
+	color: #0D5331;
+}
+.product-1 {
+    position: absolute;
+    top: 341px;
+    left: 142px;
+}
+.product-2 {
+    position: absolute;
+    top: 82px;
+    left: 338px;
+}
+.product-3 {
+	position: absolute;
+    top: 341px;
+    left: 552px;
+}
+.product-4 {
+    position: absolute;
+    top: 82px;
+    left: 784px;
+}
+.list-product-dev h3 {
+	font-size: 1.5rem;
+	color: #0D5331;
+}
+.tragop h3 {
+	font-size: 1.5rem;
+	color: #0D5331;
+}
+.tragop-mobie {
+	display: none;
+}
+.tragop-pc {
+	display: block;
+}
+/*thanh toán dhttts*/
+.title-thanhtoan {
+	font-size: .9rem;
+}
+.thanhtoan-dhttts h3 {
+	font-size: 1rem;
+	font-weight: bold;
+}
+.tt-thanhtoan p {
+	font-size: 14px;
+}
+.list-product-buy {
+	background-color: #fff;
+	box-shadow: 0px 6px 4px #ccc;
+		    -moz-box-shadow: 0px 6px 4px #ccc;
+		    -webkit-box-shadow: 0px 6px 4px #ccc;
+		    -khtml-box-shadow: 0px 6px 4px #ccc;
+}
+.khung-img {
+	width: 40%;
+	border: 1px solid #000;
+}
+.khung-img img {
+	width: 100%;
+}
+.title-product h3 {
+	font-size: 1rem;
+	font-weight: bold;
+}
+.card-promotion-buy {
+	font-size: 1rem;
+}
+.title-end { 
+	font-size: .9rem;
+	color: red;
+	font-style: italic;
+}
+.thanhtoan-dhttts .btn-success {
+	color: #fff;
+    background-color: #0D5331;
+    border-color: #0D5331;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*thanh toán - ghtn*/
+.link-mua a {
+	color: #000;
+}
+.tt-cart p {
+	color: #0D5331;
+	font-weight: bold;
+}
+.list-product-cart {
+	background-color: #fff;
+	box-shadow: 0px 6px 4px #ccc;
+    -moz-box-shadow: 0px 6px 4px #ccc;
+    -webkit-box-shadow: 0px 6px 4px #ccc;
+    -khtml-box-shadow: 0px 6px 4px #ccc;
+}
+.khung-img-cart {
+	width: 100%;
+    border: 1px solid #000;
+}
+.khung-img-cart img {
+	width: 100%;
+}
+.list-product-cart strong {
+	padding-left: 80px;
+}
+.list-product-cart .buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.list-product-cart .is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:1.5rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.list-product-cart .is-form:focus,.list-product-cart .input-text:focus {
+    outline:none;
+}
+.list-product-cart .is-form.minus {
+    border-radius:4px 0 0 4px;
+    margin-left: 36px;
+}
+.list-product-cart .is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.list-product-cart .input-qty {
+    background-color:#fff;
+    height:1.5rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.list-product-cart .input-qty::-webkit-outer-spin-button,.list-product-cart .input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.list-product-cart .btn {
+	line-height: 1rem;
+}
+.form-control-km {
+	display: block;
+    width: 100%;
+    height: calc(1em + .75rem + 2px);
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.apdunng-km .btn {
+	line-height: 1;
+	background-color: #0D5331;
+	display: flex;
+	margin-left: auto;
+}
+.tt-sum p {
+	color: red;
+}
+.tt-khachhang h3{
+	color: #0D5331;
+	border-bottom: 2px solid #000;
+	font-size: 30px;
+	font-weight: bold;
+}
+.tt-khachhang p {
+	font-size: 14px;
+}
+.tt-khachhang span {
+	color: red;
+}
+.hinhthuc span {
+	color: red;
+}
+.hinhthuc input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: red;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.tab-pane {
+    width: 100%;
+}
+.hinhthucthanhtoan span {
+    color: red;
+}
+.hinhthucthanhtoan .nav>li {
+   float: left;
+}
+.hinhthucthanhtoan .tab-ht .active{
+    background-color: #0D5331 !important;
+    color: #fff !important;
+}
+.hinhthucthanhtoan .tab-ht .btn {
+    border: 1px solid #0D5331;
+    color: #0D5331;
+    background-color: #fff;
+}
+.hinhthucthanhtoan .tab-content .tab-pane {
+    color: red;
+}
+.hinhthucthanhtoan .btn-thanhtoan {
+    background-color: #0D5331 !important;
+}
+/* news */
+.new-news {
+    
+    transition: transform .35s;
+    transform: translate3d(-20px,1,0);
+}
+
+.new-nb img {
+    width: 100%;
+    height: 300px;
+}
+.title-new {
+    position: relative;
+    top: -56px;
+    transform: translate3d(0,25px,0);
+    transition: transform .35s; 
+}
+.title-new h4 {
+    font-size: 20px;
+    color: #fff;
+}
+.new-news:hover .title-new  {
+    transform: translateZ(0);
+}
+.content-news p{
+    font-size: 16px;
+}
+/*trả góp*/
+#ex_page {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+}
+.tg_top {
+    display: inline-block;
+}
+
+.tablecontent-title{
+    display: none !important;
+}
+.tablecontent-border-radius {
+    display: none !important;
+}
+.infoproduct {
+    float: left;
+    width: 49%;
+    padding: 10px;
+    background: #fff;
+}
+.infoproduct .linksp {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.infoproduct .linksp img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.infoproduct div {
+    display: block;
+    margin-left: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 24px;
+}
+.infoproduct div a.prodt_url, .prodt_search p a {
+    color: #4a90e2;
+}
+.prodt_search {
+    float: right;
+    width: 49%;
+    padding: 10px 10px 0px;
+    background: #fff;
+}
+.infoproduct div strong {
+    float: right;
+    color: #d0021b;
+    font-size: 15px;
+    font-weight: bold;
+}
+.line_split {
+    background: #f0f0f0;
+    height: 10px;
+}
+.prodt_data_table {
+    display: block;
+    overflow: visible;
+    border-top: 1px solid #4a90e2;
+    padding: 10px 0;
+    background: #fff;
+    position: relative;
+}
+.lbl {
+    float: none;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 10px 10px 10px;
+}
+.lst_month_container {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+.listmonths {
+    display: block;
+    margin-left: 5px;
+    width: 100%;
+}
+.lst_month_container ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.listmonths li.actived {
+    border-color: #f5a623;
+    box-shadow: 0 1px 2px 1px rgb(0 0 0 / 15%);
+}
+.listmonths li {
+    float: left;
+    width: 83px;
+    background: #fff;
+    position: relative;
+    height: 30px;
+    padding: 0;
+    margin: 0 10px 0 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.listmonths li.actived:before, .listmonths li.actived:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #ddd;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -21px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+.listmonths li.actived a {
+    color: #4a90e2;
+}
+.listmonths li a {
+    display: block;
+    text-align: center;
+    padding: 1px 0;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+}
+.listmonths li a b {
+    z-index: -1;
+}
+.listmonths li.actived:after {
+    border-width: 9px;
+    border-bottom-color: #f1f1f1 !important;
+}
+.listmonths li a:hover > b {
+    color: #d0021b;
+}
+.tablecontent {
+    display: block;
+    overflow: hidden;
+    margin: -1px 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.tablecontent .table {
+    display: block;
+    overflow: hidden;
+    margin-bottom: -1px;
+}
+.tablecontent .table li {
+    display: table;
+    width: 100%;
+    background: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+.tablecontent .table li aside {
+    display: table-cell;
+    width: 25%;
+    padding: 12px 5px;
+}
+.tablecontent .table li aside:nth-child(2n) {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.tablecontent .table li:nth-child(2n) {
+    background: #fff;
+}
+.trtruoc {
+    display: inline-block;
+    margin-left: 5px;
+}
+#prdt-tratruoc {
+    border-color: #4a90e2;
+    color: #4a90e2;
+    padding: 5px;
+    border-width: 2px;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.tablecontent .table li label {
+    color: #d0021b;
+}
+.tablecontent label {
+    font-weight: 600;
+}
+.dk {
+    margin-left: 40px;
+}
+/*thu củ đổi mới*/
+.thucudoimoi>.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #0D5331 !important;
+}
+.thucudoimoi>.nav-pills a {
+    color: #0D5331;
+    text-decoration: none;
+    background-color: transparent;
+}
+.title-thucu p {
+    font-size: 20px;
+    color: #0D5331;
+    text-align: left !important;
+}
+.content-thucu p {
+    font-size: 14px;
+    text-align: justify;
+    color: #000;
+}
+.tinhtoan-thucu p {
+    font-size: 14px;
+    text-align: justify;
+    color: #000;
+    text-align: right !important;
+}
+.phanloai-thucu p {
+    font-size: 14px;
+    text-align: justify;
+    color: #000;
+    text-align: left !important;
+}
+.phi-thucu p {
+    font-size: 14px;
+    text-align: justify;
+    color: #000;
+    text-align: left !important;
+}
+.phi-thucu ul li {
+    font-size: 14px;
+    color: #000;
+    text-align: left !important;
+}
+.lienhe-thucu {
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+.lienhe-thucu p {
+    font-size: 14px;
+    color: #000;
+}
+.lienhe-thucu ul li {
+    font-size: 14px;
+    color: #000;
+    text-align: left !important;
+}
+.table td {
+    font-size: 14px;
+}
+/* sửa chưa */
+.suachua .nav .catelogy-sc{
+    margin-left: 10px;
+}
+.form-suachua {
+    background-color: #0D5331;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.form-suachua p {
+    color : #fff;
+}
+.catelogy-sc label {
+    color : #fff;
+}
+.noidung-suachua {
+    border-left: 6px solid red;
+    padding-left: 10px;
+}
+.gioithieu-suachua h6 {
+    color :#0D5331 ;
+}
+.gioithieu-suachua ol li {
+    font-size: 14px;
+}
+/*landing page*/
+.landing-page-logo .img-fluid {
+    width: 77%;
+}
+.langding-page1 {
+    background-color: #0D5331;
+}
+.image1 img {
+    width: 80%;
+}
+.btn-mua {
+    border: 1px solid red;
+    background-color: #0D5331; 
+}
+.btn-mua:hover {
+    
+    background-color: #fff; 
+    color: #0D5331;
+}
+.image2 img {
+    width: 100%;
+}
+.image3 {
+    position: absolute;
+    top: 30px;
+    left: 143px;
+}
+.image3 img {
+    width: 90%;
+}
+.image4 {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.image4 img {
+    width: 100%;
+}
+
+.image5 img {
+    width: 100%;
+}
+.langding-page2 img {
+    width: 100%;
+}
+.langding-page3 {
+    background-image: url('../image/17-20210222144658.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.form-ch {
+    background-color: yellow;
+    border-radius: 10px;
+    border:1px solid red;
+}
+
+.hinh-ch img {
+    width: 100%;
+    padding:10px;
+}
+.nv-ch {
+    border: 1px solid yellow;
+    border-radius: 14px;
+}
+.thongso-ch {
+    background: #fdfbfb;
+    background: -webkit-linear-gradient(
+    180deg, #fdfbfb, rgba(255, 255, 255, 1.0));
+    background: linear-gradient(
+    180deg, #fdfbfb, rgba(255, 255, 255, 1.0));
+    border-radius: 14px;
+}
+.langding-page4 {
+    background-image: url('../image/1-20210222132513.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Media Query */
+@media (max-width: 1200px) {
+    .navbar-nav {
+		margin-left: auto;
+		margin-right: auto !important;
+		font-size: 9px;
+		color: #fff;
+	}
+	.main-menu .nav-link img {
+		display: none;
+	}
+	.title-banner {
+		font-size: 25px;
+	}
+	.banner-km {
+		height: 117px;
+	}
+	.card-title {
+    	font-size: 13px;
+	}
+	.card-text {
+	    font-size: 10px;
+	}
+	.cr-respon{
+		margin-bottom: 1.4rem !important;
+	}
+	.km3{
+
+		display: none;
+	}
+	/*about*/
+	.tab button {
+		display: block;
+		background-color: inherit;
+		color: black;
+		padding: 10px 10px;
+		width: 100%;
+		border: none;
+		outline: none;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+		font-size: 14px;
+		box-shadow: 0px 6px 4px #ccc;
+		    -moz-box-shadow: 0px 6px 4px #ccc;
+		    -webkit-box-shadow: 0px 6px 4px #ccc;
+		    -khtml-box-shadow: 0px 6px 4px #ccc;
+	   	text-align: center;
+	   	background: #fff;
+	}
+	/*detail*/
+	.price-detail {
+	    font-size: 24px;
+	}
+	.price-detail-km {
+	    font-size: 24px;
+	}
+	.dungluong {
+		font-size: 20px;
+	}
+	.button-mtg button .title-btn-sub {
+	    font-size: 13px;
+	}
+	.btn-xt .btn-success {
+		height: 30px;
+    	padding-top: 0px;
+	}
+	.ex_diemsao span {
+	    font-size: 12px;
+	}
+	.ex_saovang>li {
+	    font-size: 10px;
+	}
+	.ex_guidanhgia a {
+	    padding: 9px 20px;
+	}
+	.comments h5 {
+		font-size: 20px;
+	}
+	.nd-chitiet p {
+	    font-size: 14px;
+	}
+	.button-xct .btn-success {
+		height: 30px;
+    	padding-top: 0px;
+	}
+	.nd-detail p {
+	    font-size: 10px;
+	}
+	/*detail*/
+	.nd-news {
+		overflow: hidden;
+	    text-overflow: ellipsis;
+	    line-height: 18px;
+	    -webkit-line-clamp: 3;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    width: 100%;
+	}
+	/*new-detail*/
+	.author {
+		display: none;
+	}
+	/*trả góp*/
+	.product-1 {
+	    position: absolute;
+	    top: 292px;
+	    left: 127px;
+	    font-size: 16px;
+	}
+	.product-2 {
+	    position: absolute;
+	    top: 87px;
+	    left: 294px;
+	    font-size: 16px;
+	}
+	.product-3 {
+	    position: absolute;
+	    top: 291px;
+	    left: 469px;
+	    font-size: 16px;
+	}
+	.product-4 {
+	    position: absolute;
+	    top: 82px;
+	    left: 632px;
+	    font-size: 16px;
+	}
+        /*news*/
+    .des {
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 992px) {
+	/*.contact-info {
+		display: none;
+	}*/
+ 	.main-menu .nav-item img {
+ 		display: none;
+ 	}
+	.title-banner {
+		font-size: 20px;
+	}
+	.km {
+		padding-left: 0px !important;
+	}
+	.banner-km {
+		height: 105px;
+	}
+	.cr-respon {
+    	margin-bottom: 3.5rem !important;
+	}
+	.navbar-nav .nav-item .nav-link{
+		padding-left: 0rem;
+	}
+	.giohang button {
+    	padding-left: 3px;
+	}
+	.hotline p {
+		font-size: 0.7rem;
+	}
+	.htcuahang p {
+		line-height: 23px;
+		text-align: center;
+		color: #0D5331;
+		font-size: 0.55rem;
+		font-weight: 900;
+	}
+	/*about*/
+	.tab button {
+		display: block;
+		background-color: inherit;
+		color: black;
+		padding: 10px 10px;
+		width: 100%;
+		border: none;
+		outline: none;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+		font-size: 12px;
+		box-shadow: 0px 6px 4px #ccc;
+		    -moz-box-shadow: 0px 6px 4px #ccc;
+		    -webkit-box-shadow: 0px 6px 4px #ccc;
+		    -khtml-box-shadow: 0px 6px 4px #ccc;
+	   	text-align: center;
+	   	background: #fff;
+	}
+	/* detail*/
+	.img-fluid-hot {
+		width: 100%;
+    	height: 78px;
+	}
+	.price-detail {
+	    font-size: 20px;
+	}
+	.price-detail-km {
+	    font-size: 20px;
+	}
+	.card-detail .card-text {
+	    font-size: 10px;
+	}
+	.card-detail .card-body {
+	    padding-bottom: 17px;
+	}
+	.product-price-detail .card-price {
+	    font-size: 10px;
+	}
+	.product-price-detail .card-promotion {
+	    color: #a8011f;
+	    font-weight: 700;
+	    margin-bottom: -0.5rem;
+	    float: left;
+	    margin-right: 15px;
+	    font-size: 10px;
+	}
+	.note-detail p {
+	    font-size: 12px;
+	}
+	.dungluong {
+		font-size: 20px;
+	}
+	.button-mtg button .title-btn {
+	    font-size: 10px;
+	}
+	.button-mtg button .title-btn-sub {
+	    font-size: 7px;
+	}
+	.nd-detail p {
+	    font-size: 10px;
+	}
+	.title-product-detail {
+	    font-size: 9px;
+	}
+	.nd-chitiet h4 {
+	    font-size: 16px;
+	    border-bottom: 2px solid black;
+	}
+	.nd-chitiet p {
+	    font-size: 12px;
+	}
+	.btn-xt .btn-success {
+		height: 30px;
+	    padding-top: 0px;
+	}
+	.ex_diemsao span {
+	    font-size: 10px;
+	}
+	.ex_saovang {
+		margin-left: -28px;
+	}
+	.ex_saovang .ex_5sao {
+	    width: 14%;
+	    float: left;
+	}
+	.ex_guidanhgia a {
+	    padding: 10px 5px;
+	    margin-left: 10px;
+	}
+	.nd-news {
+		overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 136px;
+	}
+	/*new-detail*/
+	.author {
+		display: none;
+	}
+	/*trả góp*/
+	.product-1 {
+	    position: absolute;
+	    top: 225px;
+	    left: 85px;
+	    font-size: 14px;
+	}
+	.product-2 {
+	    position: absolute;
+	    top: 70px;
+	    left: 211px;
+	    font-size: 14px;
+	}
+	.product-3 {
+	    position: absolute;
+	    top: 222px;
+	    left: 337px;
+	    font-size: 14px;
+	}
+	.product-4 {
+	    position: absolute;
+	    top: 66px;
+	    left: 468px;
+	    font-size: 14px;
+	}
+	.tragop .tab button {
+	    display: block;
+	    background-color: inherit;
+	    color: black;
+	    padding: 10px 10px;
+	    width: 100%;
+	    border: none;
+	    outline: none;
+	    text-align: left;
+	    cursor: pointer;
+	    transition: 0.3s;
+	    font-size: 11px;
+	    box-shadow: 0px 6px 4px #ccc;
+	    -moz-box-shadow: 0px 6px 4px #ccc;
+	    -webkit-box-shadow: 0px 6px 4px #ccc;
+	    -khtml-box-shadow: 0px 6px 4px #ccc;
+	    text-align: center;
+	    background: #fff;
+	}
+	.tragop .tabcontent p {
+	    font-size: 12px;
+	}
+	/* thanh toán dhttts*/
+	.khung-img {
+	    width: 75%;
+	    border: 1px solid #000;
+	}
+	.title-product h3 {
+	    font-size: .85rem;
+	    font-weight: bold;
+	}
+	.card-promotion-buy {
+    	font-size: .7rem;
+	}
+    /* thanh toán ghtn*/
+    .button-xoaproduct .btn{
+        font-size: 16px;
+    }
+    .hinhthucthanhtoan .btn-thanhtoan {
+        font-size: 16px;
+    }
+        /*news*/
+    .des {
+        line-height: 26px;
+        width: 100%;
+    }   
+}
+
+@media (max-width: 768px) {
+    .header-sub-bg {
+    	padding-left: 0px;
+    	padding-right: 0px;
+	}
+	#body-overlay {
+	    width: 100vw;
+	    height: 100vh;
+	    display: none;
+	    position: fixed;
+	    z-index: 3;
+	    top: 0;
+	    overflow: hidden;
+	}
+	.km {
+		display: none;
+	}
+	.cr-respon {
+    	margin-bottom: 3.82rem !important;
+	}
+	.store-brand-mobi{
+		display: block;
+	}
+	.store-brand{
+		display: none;
+	}
+	.main-menu {
+		display: none;
+	}
+
+	.sidenav {
+	   	height: 100%;
+	  	width: 0;
+	  	position: fixed;
+	  	z-index: 1;
+	  	top: 0;
+	  	left: 0;
+	  	background-color: #0D5331;
+	  	overflow-x: hidden;
+	  	transition: 0.5s;
+	  	padding-top: 60px;
+	  	display: block;
+	}
+
+	.sidenav a {
+	  	
+	  	text-decoration: none;
+	  	font-size: 0.8rem;
+	  	color: #fff;
+	  	display: block;
+	  	transition: 0.3s;
+	}
+	.sidenav img {
+		width: 0.8rem;
+		margin-right: 10px;
+	}
+	.sidenav a:hover {
+	  	color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	  	position: absolute;
+	  	top: 0;
+	  	right: 25px;
+	  	font-size: 36px;
+	  	margin-left: 50px;
+	}
+	.has-search .form-control-feedback {
+    	z-index: 0;
+	}
+		/*footer*/
+	.thongtinthanhtoan img {
+		padding-top: 10px;
+		width: 60%;
+	}
+	.ketnoiddx img {
+		width: 60%;
+	}
+	/*about*/
+	.tab button {
+		display: block;
+		background-color: inherit;
+		color: black;
+		padding: 10px 10px;
+		width: 100%;
+		border: none;
+		outline: none;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+		font-size: 16px;
+		box-shadow: 0px 6px 4px #ccc;
+		    -moz-box-shadow: 0px 6px 4px #ccc;
+		    -webkit-box-shadow: 0px 6px 4px #ccc;
+		    -khtml-box-shadow: 0px 6px 4px #ccc;
+	   	text-align: center;
+	   	background: #fff;
+	}
+	/*detail*/
+	.img-fluid-hot {
+	    width: 100%;
+	    height: 100px;
+	}
+	.note-detail p {
+	    font-size: 14px;
+	}
+	.price-detail {
+	    font-size: 20px;
+	}
+	.price-detail-km {
+	    font-size: 20px;
+	}
+	.card-detail .card-text {
+	    font-size: 10px;
+	}
+	.product-price-detail .card-price {
+	    font-size: 10px;
+	}
+	.product-price-detail .card-promotion {
+	    color: #a8011f;
+	    font-weight: 700;
+	    margin-bottom: -0.5rem;
+	    float: left;
+	    margin-right: 15px;
+	    font-size: 11px;
+	}
+	.button-mtg button .title-btn {
+	    font-size: 10px;
+	}
+	.button-mtg button .title-btn-sub {
+	    font-size: 7px;
+	}
+	.title-product-detail {
+	    font-size: 9px;
+	}
+	.nd-detail p {
+	    font-size: 10px;
+	}
+	.nd-chitiet h4 {
+	    font-size: 16px;
+	    border-bottom: 2px solid black;
+	}
+	.nd-chitiet p {
+	    font-size: 12px;
+	}
+	.ex_diemsao span {
+	    font-size: 10px;
+	}
+	.ex_diemsao p {
+	    font-size: 40px;
+	    line-height: 0px;
+	}
+	.ex_saovang {
+	    margin-left: -28px;
+	}
+	.ex_saovang .ex_5sao {
+	    width: 20%;
+	    float: left;
+	}
+	.ex_saovang>li {
+	    font-size: 14px;
+	}
+	.ex_guidanhgia a {
+	    padding: 12px 9px;
+	    margin-left: 0px;
+	}
+	.nd-news {
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    line-height: 12px;
+	    -webkit-line-clamp: 3;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    width: 100%;
+	}
+	.card-title {
+	    font-size: 14px;
+
+	}
+	.button-xct .btn-success {
+	    height: 30px;
+	    padding-top: 4px;
+	    font-size: 14px;
+	}
+	.author {
+		display: none;
+	}
+	/*trả góp*/
+	.tragop-mobie {
+		display: block;
+	}
+	.tragop-pc {
+		display: none;
+	}
+	.tragop .tab button {
+	    font-size: 20px;
+	}
+	.tragop .tabcontent p {
+	    font-size: 12px;
+	}
+	.hd-tragop img {
+	    width: 30%;
+	}
+	.hd-tragop h3 {
+	    font-size: .85rem;
+	    color: #0D5331;
+	}
+	.list-product-dev h3 {
+	    font-size: .85rem;
+	    color: #0D5331;
+	}
+	.tragop h3 {
+	    font-size: .85rem;
+	    color: #0D5331;
+	}
+	/*thanh toán dhttts*/
+	.title-product h3 {
+	    font-size: .85rem;
+	    font-weight: bold;
+	    text-align: center;
+	}
+	.card-promotion-buy {
+	    font-size: .65rem;
+	    text-align: center;
+	}
+    /*news*/
+    .lst_month_container {
+        overflow-x: auto;
+    }
+    .des {
+        line-height: 26px;
+    }
+    /*trả góp*/
+    .tablecontent {
+        display: none;
+    }
+    .infoproduct {
+        width: 100%;
+    }
+    .prodt_search {
+        width: 100%;
+    }
+    .listmonths {
+        display: inline-block;
+        margin-left: -33px;
+        width: 800px;
+        overflow-x: auto;
+        height: 60px;
+        margin-bottom: 0px;
+    }
+    .tablecontent-title {
+        overflow: hidden;
+        float: left;
+        margin-right: 0px;
+        padding-top: 0px;
+        background: #f1f1f1;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-right: none;
+        width: 150px;
+    }
+    .tablecontent .table {
+        width: 500px;
+        max-width: unset;
+    }
+    .tablecontent .table li {
+        width: 100%;
+    }
+    .tablecontent .table li aside {
+        width: 33.33%;
+        font-size: 14px;
+    }
+    .tablecontent .table li aside img{
+        width: 96px;
+    }
+    .tablecontent-title{
+        display: block !important;
+    }
+    .tablecontent-border-radius {
+        display: block !important;
+    }
+    .tablecontent .table {
+
+        margin-left: -40px;
+    }
+    .tablecontent .table li:nth-child(2n) {
+        background: #fff;
+    }
+    .prodt_data_table .tablecontent-border-radius {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .tablecontent-border-radius {
+        overflow: auto;
+    }
+    
+    #prdt-tratruoc {
+        padding: 0px;
+        font-size: 13px;
+    }
+    #title-giayto {
+        height: 67px;
+    }
+    #title-xetduyetonline {
+        height: 84px;
+    }
+    .tablecontent-border-radius label {
+        margin-bottom: 0rem !important;
+    }
+    .dk {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-sub-bg {
+    	padding-left: 0px;
+    	padding-right: 0px;
+	}
+	.carousel-item img{
+		height: 146px;
+	}
+	.km {
+		display: none;
+	}
+	
+	.giohang button {
+    	padding-left: 3px;
+	}
+	.navbar {
+		background-color: white !important;
+	}
+	.store-brand-mobi{
+		display: block;
+	}
+	.store-brand{
+		display: none;
+	}
+	.main-menu {
+		display: none;
+	}
+	.sidenav {
+	   	height: 100%;
+	  	width: 0;
+	  	position: fixed;
+	  	z-index: 3;
+	  	top: 0;
+	  	left: 0;
+	  	background-color: #0D5331;
+	  	overflow-x: hidden;
+	  	transition: 0.5s;
+	  	padding-top: 60px;
+	  	display: block;
+	}
+
+	.sidenav a {
+	  	
+	  	text-decoration: none;
+	  	font-size: 0.8rem;
+	  	color: #fff;
+	  	display: block;
+	  	transition: 0.3s;
+	}
+	.sidenav img {
+		width: 0.8rem;
+		margin-right: 10px;
+	}
+	.sidenav a:hover {
+	  	color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	  	position: absolute;
+	  	top: 0;
+	  	right: 25px;
+	  	font-size: 36px;
+	  	margin-left: 50px;
+	}
+	.has-search .form-control-feedback {
+		z-index: 0;
+		
+	}
+	#body-overlay {
+	    width: 100vw;
+	    height: 100vh;
+	    display: none;
+	    position: fixed;
+	    z-index: 3;
+	    top: 0;
+	    overflow: hidden;
+	}
+	/*user*/
+	.flash-sale {
+    	display: none;
+	}
+	
+	/*footer*/
+	.thongtinthanhtoan img {
+		padding-top: 10px;
+		width: 80%;
+	}
+	.ketnoiddx img {
+		width: 80%;
+	}
+	/*about*/
+	.tab button {
+		display: block;
+		background-color: inherit;
+		color: black;
+		padding: 10px 10px;
+		width: 100%;
+		border: none;
+		outline: none;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+		font-size: 16px;
+		box-shadow: 0px 6px 4px #ccc;
+		    -moz-box-shadow: 0px 6px 4px #ccc;
+		    -webkit-box-shadow: 0px 6px 4px #ccc;
+		    -khtml-box-shadow: 0px 6px 4px #ccc;
+	   	text-align: center;
+	   	background: #fff;
+	}
+	/*detail*/
+	.nd-news {
+	    overflow: auto;
+	    text-overflow: ellipsis;
+	    line-height: 29px;
+	    -webkit-line-clamp: 2;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    width: 100%;
+	}
+	.price-detail {
+		font-size: 20px;
+	}
+	.price-detail-km {
+	    font-size: 20px;
+	}
+	.card-detail .card-text {
+	    font-size: 11px;
+	}
+	.product-price-detail .card-price {
+	    font-size: 10px;
+	}
+	.product-price-detail .card-promotion {
+	    color: #a8011f;
+	    font-weight: 700;
+	    margin-bottom: -0.5rem;
+	    float: left;
+	    margin-right: 15px;
+	    font-size: 11px;
+	}
+	.button-mtg button .title-btn {
+	    font-size: 11px;
+	}
+	.button-mtg button .title-btn-sub {
+	    font-size: 7px;
+	}
+	.nd-detail p {
+	    font-size: 14px;
+	}
+	.ex_saovang {
+	    margin-left: -30px;
+	}
+	.ex_saovang>li {
+	    font-size: 14px;
+	}
+	.ex_saovang .ex_5sao {
+	    width: 18%;
+	    float: left;
+	}
+	.ex_guidanhgia a {
+	    padding: 12px 9px;
+	    margin-left: 62px;
+	}
+	.title-product-detail {
+	    font-size: 16px;
+	}
+	/*trả góp*/
+	.tragop-mobie {
+		display: block;
+	}
+	.tragop-pc {
+		display: none;
+	}
+	.hd-tragop img {
+	    width: 30%;
+	}
+	.hd-tragop h3 {
+	    font-size: .85rem;
+	    color: #0D5331;
+	}
+	.list-product-dev h3 {
+	    font-size: .85rem;
+	    color: #0D5331;
+	}
+	.tragop h3 {
+	    font-size: .85rem;
+	    color: #0D5331;
+	}
+	/*thanh toán dhttts*/
+	.title-product h3 {
+	    font-size: .7rem;
+	    font-weight: bold;
+	    text-align: center;
+	}
+	.card-promotion-buy {
+	    font-size: .85rem;
+	    text-align: center;
+	}
+    .list-product-cart .ml-5 {
+        margin-left: 0rem !important;
+    }
+    .tt-khachhang h3 {
+        font-size: 28px;
+    }
+    .apdunng-km .btn {
+        font-size: 16px;
+    }
+    /*news */
+    .title-new {
+        top: -91px;
+    }
+    /*trả góp*/
+    .tablecontent {
+        display: none;
+    }
+    .infoproduct {
+        width: 100%;
+    }
+    .prodt_search {
+        width: 100%;
+    }
+    .lbl {
+        float: none;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 5px 10px 10px 10px;'
+        font-size: 14px;
+    }
+    .lst_month_container {
+        overflow-x: auto;
+    }
+    .lst_month_container ul {
+        margin-bottom: 0rem;
+    }
+    .listmonths {
+        display: inline-block;
+        margin-left: -33px;
+        width: 800px;
+        overflow-x: auto;
+        height: 60px;
+        margin-bottom: 0px;
+    }
+    .tablecontent-title {
+        overflow: hidden;
+        float: left;
+        margin-right: 0px;
+        padding-top: 0px;
+        background: #f1f1f1;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-right: none;
+        width: 150px;
+    }
+    .tablecontent .table {
+        width: 500px;
+        max-width: unset;
+    }
+    .tablecontent .table li {
+        width: 100%;
+    }
+    .tablecontent .table li aside {
+        width: 33.33%;
+        font-size: 14px;
+    }
+    .tablecontent .table li aside img{
+        width: 96px;
+    }
+    .tablecontent-title{
+        display: block !important;
+    }
+    .tablecontent-border-radius {
+        display: block !important;
+    }
+    .tablecontent .table {
+
+        margin-left: -40px;
+    }
+    .tablecontent .table li:nth-child(2n) {
+        background: #fff;
+    }
+    .prodt_data_table .tablecontent-border-radius {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .tablecontent-border-radius {
+        overflow: auto;
+    }
+    
+    #prdt-tratruoc {
+        padding: 0px;
+        font-size: 13px;
+    }
+    #title-giayto {
+        height: 67px;
+    }
+    #title-xetduyetonline {
+        height: 84px;
+    }
+    .tablecontent-border-radius label {
+        margin-bottom: 0rem !important;
+    }
+    .dk {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    /* sửa chửa*/
+    .suachua iframe {
+        width: 100%;
+    }
+    /*langding-page*/
+    .youtube-ch {
+        display: none;
+    }
+    .meu-landing a {
+        font-size: 15px;
+    }
+    .landing-page-logo .img-fluid {
+    width: 100%;
+    }   
+    .hinh-ip-land {
+        display: none;
+    }
+    .btn-mua {
+        display: none;
+    }
+    .image3 {
+        position: absolute;
+        top: 18px;
+        left: 94px;
+    }
+    .image3 img {
+        width: 73%;
+    }
+    .image4 {
+        position: absolute;
+        top: 252px;
+        left: 49px;
+    }
+    .image4 img {
+        width: 85%;
+    }
+    .btn-mua1 {
+        display: block;
+        margin-left: 130px;
+    }
+    .langding-page3 {
+        background-image: url(../image/17-20210222144658.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 1430.4px;
+    }
+    .langding-page4 {
+        background-image: url(../image/1-20210222132513.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+/* lam nguyen */
+
+.cursor {
+  cursor: pointer;
+}
+.hide-fix-banner {
+  display: none;
+}
